@@ -1,0 +1,24 @@
+1.Take Player's letter.
+2.Decision onto who goes first.
+2.(a)IF PLAYER GOES FIRST
+	1*Show Board
+	2*Ask for Player's move
+	3*Check if Player won
+		3.a*If YES::GOTO 3.
+		3.b*CONTINUE
+	4*Look for a draw match
+		4.a*If YES::GOTO 3.
+		4.b*ELSE::GOTO 2.(b)1*
+2.(b)IF COMPUTER GOES FIRST
+	1*Ask for Computer's move
+	2*Check if Computer won
+		2.a*If YES::GOTO 3.
+		2.b*CONTINUE
+	3*Look for a draw match
+		3.a*If YES::GOTO 3.
+		3.b*ELSE::GOTO 2.(a)1*
+3.Play Again Question.
+	1*If YES::GOTO 1.
+	2*If NO::EXIT
+
+==============EXIT================
